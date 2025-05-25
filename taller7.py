@@ -81,6 +81,7 @@ def inicio_dia(global_vars: global_variables):
             global_vars.ordenes_hoy[i].extend(global_vars.ordenes_ayer[i])
 
     # agendar eventos iniciales por color
+    
 
 
     # agendar eventos para mañana
