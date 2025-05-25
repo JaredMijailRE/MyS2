@@ -1,0 +1,197 @@
+=== SIMULACION JOB SHOP - PROBLEMA 2.7 ===
+Simulando 100 días para alcanzar estado estable
+Configuración del sistema:
+- 3 máquinas de filamento (azul, rojo, blanco)
+- 4 máquinas de tejido (2 delgadas, 2 gruesas)
+- Jornada laboral: 8 horas/día (480 min)
+- Costo horas extras: $50/hora-máquina
+
+Progreso: Día 20 completado
+Progreso: Día 20 completado
+Progreso: Día 20 completado
+Progreso: Día 20 completado
+Progreso: Día 20 completado
+Progreso: Día 20 completado
+Progreso: Día 20 completado
+Progreso: Día 20 completado
+Progreso: Día 20 completado
+Progreso: Día 20 completado
+Progreso: Día 20 completado
+Progreso: Día 20 completado
+Progreso: Día 20 completado
+Progreso: Día 20 completado
+Progreso: Día 40 completado
+Progreso: Día 40 completado
+Progreso: Día 40 completado
+Progreso: Día 40 completado
+Progreso: Día 40 completado
+Progreso: Día 40 completado
+Progreso: Día 40 completado
+Progreso: Día 40 completado
+Progreso: Día 40 completado
+Progreso: Día 40 completado
+Progreso: Día 40 completado
+Progreso: Día 40 completado
+Progreso: Día 40 completado
+Progreso: Día 40 completado
+Progreso: Día 40 completado
+Progreso: Día 40 completado
+Progreso: Día 40 completado
+Progreso: Día 40 completado
+Progreso: Día 60 completado
+Progreso: Día 60 completado
+Progreso: Día 60 completado
+Progreso: Día 60 completado
+Progreso: Día 60 completado
+Progreso: Día 60 completado
+Progreso: Día 60 completado
+Progreso: Día 60 completado
+Progreso: Día 60 completado
+Progreso: Día 60 completado
+Progreso: Día 80 completado
+Progreso: Día 80 completado
+Progreso: Día 80 completado
+Progreso: Día 80 completado
+Progreso: Día 80 completado
+Progreso: Día 80 completado
+Progreso: Día 80 completado
+Progreso: Día 80 completado
+Progreso: Día 80 completado
+Progreso: Día 80 completado
+Progreso: Día 80 completado
+Progreso: Día 80 completado
+Progreso: Día 100 completado
+
+=== RESULTADOS DE LA SIMULACION ===
+Tiempo de simulación: 100.0 días
+
+=== RESPUESTAS A LAS PREGUNTAS ===
+
+1. COSTO PROMEDIO DE HORAS EXTRAS:
+   Costo promedio por día: $0.39
+   Total horas extra: 0.77 horas
+   - Filamento: 0.30 horas
+   - Tejido: 0.47 horas
+
+2. INTERVALO DE CONFIANZA (95%):
+   Intervalo: $0.39 ± $0.12
+   Rango: [$0.26, $0.51]
+
+3. DÍAS PARA ALCANZAR ESTADO ESTABLE:
+   Se simularon 100 días
+   Recomendación: Usar al menos 30-50 días para estado estable
+
+4. RECOMENDACIONES PARA MEJORAR EL SISTEMA:
+   ✓ CUELLO DE BOTELLA: Máquinas de tejido
+   ✓ RECOMENDACIÓN: Agregar 1-2 máquinas de tejido adicionales
+   ✓ IMPACTO ESPERADO: Reducción del 30-50% en horas extras
+
+=== ESTADISTICAS DETALLADAS ===
+
+Órdenes procesadas por día:
+
+ sampst                         Number
+variable                          of
+ number       Average           values          Maximum          Minimum
+________________________________________________________________________
+
+    3         95.8317          101.000          110.000          80.0000 
+________________________________________________________________________
+
+
+
+Tiempo promedio en el sistema (minutos):
+
+ sampst                         Number
+variable                          of
+ number       Average           values          Maximum          Minimum
+________________________________________________________________________
+
+    4         15999.5          3235.00          32385.5          10.4552 
+________________________________________________________________________
+
+
+
+Horas extras - Filamento (minutos):
+
+ sampst                         Number
+variable                          of
+ number       Average           values          Maximum          Minimum
+________________________________________________________________________
+
+    1         17.8006          293.000          161.355       0.00195312 
+________________________________________________________________________
+
+
+
+Horas extras - Tejido (minutos):
+
+ sampst                         Number
+variable                          of
+ number       Average           values          Maximum          Minimum
+________________________________________________________________________
+
+    2         28.4423          198.000          213.531        0.0605469 
+________________________________________________________________________
+
+
+
+=== ESTADISTICAS DE COLAS ===
+Cola Filamento Azul:
+
+  File         Time
+ number       average          Maximum          Minimum
+_______________________________________________________
+
+    1         182.490          327.000          0.00000 
+_______________________________________________________
+
+
+
+Cola Filamento Rojo:
+
+  File         Time
+ number       average          Maximum          Minimum
+_______________________________________________________
+
+    2         231.911          432.000          1.00000 
+_______________________________________________________
+
+
+
+Cola Filamento Blanco:
+
+  File         Time
+ number       average          Maximum          Minimum
+_______________________________________________________
+
+    3         298.423          546.000          0.00000 
+_______________________________________________________
+
+
+
+Cola Tejido Delgado:
+
+  File         Time
+ number       average          Maximum          Minimum
+_______________________________________________________
+
+    4         0.00000     -1.00000E+30      1.00000E+30 
+_______________________________________________________
+
+
+
+Cola Tejido Grueso:
+
+  File         Time
+ number       average          Maximum          Minimum
+_______________________________________________________
+
+    5         2502.21          5162.00          0.00000 
+_______________________________________________________
+
+
+
+=== RESUMEN EJECUTIVO ===
+El sistema procesa aproximadamente 1 órdenes/día
+Costo de horas extras: $0.39/día (0.1% del costo base estimado)
